@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background-color: rgb(211, 204, 204);
+}
+
+nav ul{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 3%  3%;
+    background-color: cornflowerblue;
+    margin: 15px 15px;
+    text-transform: uppercase;
+   
+
+}
+nav li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: cornsilk;
+   
+    
+}
+
+div.container{
+    border: 1px solid black;
+    background-color: chartreuse;
+    height: 60%;
+    width: 95%;
+    margin: 15px auto;
+}
